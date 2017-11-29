@@ -1,4 +1,16 @@
-var a=6;
-var h=7; 
-var triangleArea=a*h/2; 
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
+function drawTree(n) {
+ 
+    for (i = 1; i <= n; i++)
+    { 
+        for (j = i; j < n; j++)
+        {
+            document.write("");
+        }
+        for (j = 1; j <= (2*i-1); j++)
+        {
+            document.write("*");
+        }
+        	document.write("*");
+        }
+    }
+drawTree(prompt("Z ilu pięter ma być choinka? Wpisz liczbę całkowitą"));
