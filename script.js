@@ -4,13 +4,13 @@ function drawTree(n) {
     { 
         for (j = i; j < n; j++)
         {
-            document.write("");
+            console.log("");
         }
         for (j = 1; j <= (2*i-1); j++)
         {
-            document.write("*");
+            console.log("*");
         }
-        	document.write("*");
+        	console.log("*");
         }
     }
 drawTree(prompt("Z ilu pięter ma być choinka? Wpisz liczbę całkowitą"));
